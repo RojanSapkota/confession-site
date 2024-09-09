@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#36393f" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Share Your Story or Confess" />
+    <meta
+      property="og:description"
+      content="Share Your Story or Confess"
+    />
+    <meta
+      name="description"
+      content="Share Your Story or Confess"
+    />
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Share Your Story or Confess</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="script.js" type="text/javascript"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bounce.js/0.8.2/bounce.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css"
+      type="text/css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+  </head>
+  <body>
+    <noscript><div class="no-js">Please enable javascript in your browser</div></noscript>
+    <div class="title">
+      Share Your Story or Confess
+      <div class="description"></div>
+    </div>
+    <div class="body">
+      <div class="profile-div">
+        <p>
+
+        </p>
+        <p>Name:</p>
+        <input
+          type="text"
+          class="input"
+          id="name"
+          value="Anonymous"/>
+        <div id="profile">
+
+        </div>
+        <div class="message-div">
+          <p>Message:</p>
+          <textarea id="message" maxlength="2000"></textarea>
+        </div>
+        <div class="buttonDiv">
+          <button onclick="send()">Send</button>
+        </div>
+      </div>
+    </div>
+        </span
+      >
+      <div class="switch">
+        <label>
+          <input type="checkbox" id="theme" />
+          <span class="check"></span>
+        </label>
+      </div>
+  </body>
+</html>
