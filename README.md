@@ -45,13 +45,6 @@ Additionally:
 
   Make sure your webhook URL starts with `https://discord.com/api/webhooks/.`
 
-### Files:
-  📂 your-project-directory <br>
- ┣ 📜 index.html              # Main HTML file <br>
- ┣ 📜 style.css               # Styling for the page <br>
- ┣ 📜 script.js               # JavaScript for sending webhook and theme toggle <br>
- ┗ 📜 README.md               # Documentation for the project <br>
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
