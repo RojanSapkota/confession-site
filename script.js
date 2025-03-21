@@ -6,7 +6,7 @@ function toggle() {
 function send() {
   const date = Date.now();
   // Test webhook link
-  const link = "https://discord.com/api/webhooks/1282685840169894009/OlN_oXFw-4dS5cQZeS2VFIHS67FZUaKNmhg-APVnb1aVk8b0uUBkjg7Gdimx7T7VrqGV"; // Enter your webhook link to receive messages
+  const link = "https://discord.com/api/webhooks/1116380965355405374/JwvKENLrCz3DkMh5TkJQcOvmNrF8vIfamAryAqrpb-E9e10eILSuMV72WamdVa7F0Did"; // Enter your webhook link to receive messages
   const name = document.getElementById('name').value;
   const avatar = "https://th.bing.com/th/id/OIP.iZywMxDDGbbr_zxkfQ6v5QHaEK?pid=ImgDet&rs=1";
   let message = document.getElementById('message').value;
